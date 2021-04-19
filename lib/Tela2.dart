@@ -12,7 +12,7 @@ class _Tela2State extends State<Tela2> {
   Widget build(BuildContext context) {
     return Scaffold (
       appBar: AppBar(),
-    body: Center(child: Text(widget.nome),),  
+    body: Center(child: Text(widget.nome+""),),  
     );
   }
 }
